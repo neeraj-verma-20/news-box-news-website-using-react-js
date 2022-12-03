@@ -71,7 +71,7 @@ export class News extends Component {
       this.props.country
     }&category=${
       this.props.category
-    }&apiKey=4e3395af13654b9b8400f61ae86be015&page=${
+    }&apiKey=${props.apiKey}&page=${
       this.state.page + 1
     }&pageSize=${this.props.pageSize}`;
     // this.setState({ loading: true });
