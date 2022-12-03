@@ -1,0 +1,12 @@
+:root {
+    --primary: #6f42c1;
+}
+
+.navbar-indigo {
+    color: white;
+}
+
+.bg-indigo {
+    background-color: var(--primary);
+    color: white;
+}
